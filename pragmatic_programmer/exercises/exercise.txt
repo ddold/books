@@ -1,0 +1,29 @@
+Exercise 1.
+You're asked to read a file a line at a time. For each line, you have to split it into fields. 
+Which of the following sets of pseudo class definitions is likely to be more orthogonal?
+	
+	class Split1 {
+		constructor(fileName) 	# opens the file for reading
+		def readNextLine()		# moves to the next line
+		def getField(n)			# returns nth field in current line
+	}
+
+or 
+
+	class Split2 {
+		constructor(line)	# splits a line
+		def getField(n)		# returns the nth field in current line
+	}
+
+Answer:
+I would say Split2 is more orthogonal, it only cares about receiving a line and splitting the fields. It doesn't care what file (if even a file) is got from as long as it gets a line to split. It is more concise and reusable
+
+
+
+Exercise 2.
+What are the differences in orthonganilty between object-oriented and function languages? 
+Are these differences inherent inthe languages themselves, orjust in the way people use them?
+
+Answer:
+In OO languages, features such as multiple inheritance, exceptions, operator overloading, and parent-method overriding (via subclassing) provide ample opportunity to increase coupling in nonobvious ways. There is also a kind of coupling because a class couples code to data. This is normally a good thing (when coupling is good, we call it cohesion). But if you don't make your classes focused enough, it can lead to some pretty ugly interfaces.
+In functional languages, you're encouraged to write lots of small, decoupled functions, and to combine them in different ways to solve your problem. In theory this sounds good. In practive it often is. But there's a form of coupling that can happen here, too. These functions typically transform data, which means the result of one function can become the input to another. If you're not careful, making a change to the data format a function generates can result in a failure somewhere down the trandformational stream. Languages with good type systems can help mitigate this.
