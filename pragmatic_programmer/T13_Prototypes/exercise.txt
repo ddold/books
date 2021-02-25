@@ -1,0 +1,10 @@
+Exercise.
+Marketing would like to sit down and brainstorm a few web page designs with you. They are thinking of clickable image maps to take you to other pages, and so on. But they can't decide on a model for the image - maybe it's a car, or a phone, or a house. You have a list of target pages and content; they'd like to see a few prototypes. Oh, by the way, you have 15 minutes. What tools might you use?
+
+My answer:
+1 of 2 solutions comes to mind. 
+1. Get a whiteboard and draw the squares to represent the image models and draw the appropriate image on it and then an arrow leading to that content.
+2. Use post-it notes in similar fashion to the whiteboard solution
+
+Solution from back of the book:
+Low-tech tot he rescue! Draw a few cartoons with markers on a whiteboard - a car, a phone and a house. It doesn't have to be great art; stick-figure outlines are fine. Put Post-it notes that describe the contents of target pages on the clickable areas. As the meeting progresses, you can refine the drawings and placements of the Post-it notes
