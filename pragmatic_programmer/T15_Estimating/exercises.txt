@@ -1,0 +1,19 @@
+Exercise 9
+You are asked "Which has a higher bandwidth: a 1Gbps net connection or a person walking between two computers with a full 1TB of storage device in their pocket?"
+What constraints will you put on your answer to ensure that the scope of your response is correct? (For example, you might say that the time taken to access teh storage device is ignored.)
+
+There is no issues with the 1Gbps connection
+The info we want is on the storage device
+We know the speed the person walks at between machines
+We know the distance between the machines
+We're not accounting for the time it takes to transfer info to and from the storage device
+The overhead of storing data is roughly equal to the overhead of sending it over the communcations line
+
+
+Exercise 10
+So, which has the higher bandwidth?
+
+1TB tape contains 2^43 bits, or 8796Gb. To send that over line at 1Gbps would take 8769 seconds or 2.4 hours 
+If the person is walking at a constant speed of 3.5mph, then the 2 machines would need to be almost 9 miles (8.4 miles to be exact) apart for the communications line to outperform the courier
+
+Otherwise the person wins

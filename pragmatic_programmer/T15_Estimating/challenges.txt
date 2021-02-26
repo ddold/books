@@ -1,0 +1,1 @@
+Start keeping a log og your estimates. For each, track how accurate you turned out to be. If your error was greater than 50%, try to find out where your estimate went wrong.

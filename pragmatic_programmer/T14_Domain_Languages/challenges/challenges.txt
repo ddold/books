@@ -1,0 +1,8 @@
+Question:
+Could some of the requirements of your current project be expressed in a domain-specific language? Would it be possible to write a compiler or translator that could generate most of the code required?
+I don't think so as the project is based on feature flags. This is a piece of software that can be used on top of any software. There is a Rox code that is used in the SDKs.
+No.
+
+Question
+If you decide to adopt mini-languages as a way of programming closer to the problem domain, you're acepting that some effort will be required to implement them. Can you se ways in which the framework you develop for one project can be used in others?
+If the DSL is for a IT use, like SQL for a DB, then it could be made in a way that it's reusable in other projects. If you make a DSL for a topic, like medicine then the framework will be based around the topic. Unless you have specific keywords that are generic like used in Cucumber, then it could be reusable
