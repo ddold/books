@@ -1,0 +1,14 @@
+Design a small address book database (name, phone number, and so on) using a straightforward binary representation in your language of choice.
+Do this before reading the rest of this challenge...
+
+- Translate that format into a plain-text format using XML or JSON
+- For each version, add a new, variable-length field called directions in which you might enter directions to each person's house
+
+What issues came up regarding versioning and extensibility? 
+Which form was easier to modify?
+What about converting existing data?
+
+
+So with setting this up I used Java, I may comeback and try this in C or Python as I wanted to save the data as binary to a file. Best I could so was save it as a String!
+Converting the String value from the saved file to JSON was simple thanks to the Jackson library
+Tried to convert it to XML as well and it proved a right PITA that I gave up
